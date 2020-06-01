@@ -28,7 +28,7 @@ steps:
   inputs:
     command: publish
     publishWebProjects: false
-    projects: /CiCd_WithGit/CiCd_WithGit.csproj'
+    projects: CiCd_WithGit/CiCd_WithGit.csproj'
     arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
     zipAfterPublish: true
 
